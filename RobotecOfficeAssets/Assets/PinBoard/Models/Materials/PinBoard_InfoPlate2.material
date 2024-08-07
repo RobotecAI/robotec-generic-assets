@@ -1,0 +1,22 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5840848684310913,
+            0.5840848684310913,
+            0.5840848684310913,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/PinBoard_InfoPlate2_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "Textures/PinBoard_InfoPlate_Normal.png",
+        "opacity.factor": 1.0,
+        "specularF0.factor": 1.0
+    }
+}

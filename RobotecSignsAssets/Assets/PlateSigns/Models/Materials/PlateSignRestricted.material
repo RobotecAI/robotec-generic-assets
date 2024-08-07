@@ -1,0 +1,11 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/PlateSignRestricted_BaseColor.png",
+        "metallic.textureMap": "Textures/PlateSignGeneric_Metallic.png",
+        "normal.textureMap": "Textures/PlateSignGeneric_Normal.png",
+        "roughness.textureMap": "Textures/PlateSignGeneric_Roughness.png"
+    }
+}
+

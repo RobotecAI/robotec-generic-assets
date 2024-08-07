@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder RobotecSmallContainersAssets/Assets": {
+                    "watch": "@GEMROOT:RobotecSmallContainersAssets@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder RobotecSmallContainersAssets/Registry": {
+                    "watch": "@GEMROOT:RobotecSmallContainersAssets@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
