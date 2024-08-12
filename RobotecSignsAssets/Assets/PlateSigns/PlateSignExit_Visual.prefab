@@ -165,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{9A5F50F5-7AF0-5DEF-ACC3-9AB659371753}"
-                                            }
+                                            },
+                                            "assetHint": "platesigns/models/materials/platesignexit.azmaterial"
                                         }
                                     }
                                 }
@@ -190,6 +191,11 @@
                     "Id": 4008476575259749442,
                     "Parent Entity": "Entity_[534843777738304]",
                     "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -90.0
+                        ],
                         "UniformScale": 0.10000000149011612
                     }
                 }

@@ -165,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{E109CD5F-6D5C-5111-9C88-3E5563AD7F4B}"
-                                            }
+                                            },
+                                            "assetHint": "platesigns/models/materials/platesignvestshelmets.azmaterial"
                                         }
                                     }
                                 }
@@ -193,9 +194,9 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            180.0
+                            -90.0
                         ],
-                        "UniformScale": 0.09000000357627869
+                        "UniformScale": 0.10000000149011612
                     }
                 }
             }

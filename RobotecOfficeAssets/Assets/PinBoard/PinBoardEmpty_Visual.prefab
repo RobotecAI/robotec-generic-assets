@@ -129,6 +129,11 @@
                     "Id": 10904671622453963175,
                     "Parent Entity": "Entity_[246852879887448]",
                     "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -90.0
+                        ],
                         "UniformScale": 2.0999999046325684
                     }
                 }
@@ -181,14 +186,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 14802998700130015812,
-                    "Parent Entity": "ContainerEntity",
-                    "Transform Data": {
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            180.0
-                        ]
-                    }
+                    "Parent Entity": "ContainerEntity"
                 }
             }
         }

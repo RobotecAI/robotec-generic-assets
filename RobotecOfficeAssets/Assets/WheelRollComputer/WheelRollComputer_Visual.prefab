@@ -165,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{CEBB5FDE-2890-5DDF-92A3-D34429C50BA6}"
-                                            }
+                                            },
+                                            "assetHint": "wheelrollcomputer/models/materials/wheelrollcomputer.azmaterial"
                                         }
                                     }
                                 }
@@ -194,6 +195,11 @@
                             0.0,
                             0.0,
                             0.024907469749450684
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            90.0
                         ],
                         "UniformScale": 1.399999976158142
                     }

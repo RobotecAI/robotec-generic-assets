@@ -165,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{2F8EA35B-A7E5-5FAE-93B4-362D85DABAC6}"
-                                            }
+                                            },
+                                            "assetHint": "platesigns/models/materials/platesignforklifts.azmaterial"
                                         }
                                     }
                                 }
@@ -193,7 +194,7 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            180.0
+                            -90.0
                         ],
                         "UniformScale": 0.10000000149011612
                     }

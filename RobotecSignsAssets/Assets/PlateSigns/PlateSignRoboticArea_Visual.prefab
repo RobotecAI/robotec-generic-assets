@@ -97,14 +97,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10815852293132720518,
-                    "Parent Entity": "ContainerEntity",
-                    "Transform Data": {
-                        "Rotate": [
-                            90.0,
-                            0.0,
-                            0.0
-                        ]
-                    }
+                    "Parent Entity": "ContainerEntity"
                 }
             }
         },
@@ -172,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{9D41F722-9F55-568D-972A-46875A52FF9A}"
-                                            }
+                                            },
+                                            "assetHint": "platesigns/models/materials/platesignroboticarea.azmaterial"
                                         }
                                     }
                                 }
@@ -199,7 +193,12 @@
                     "Transform Data": {
                         "Translate": [
                             0.0,
-                            0.2199999988079071,
+                            2.384185791015625e-7,
+                            0.23161914944648743
+                        ],
+                        "Rotate": [
+                            89.99994659423828,
+                            89.99994659423828,
                             0.0
                         ],
                         "UniformScale": 1.5499999523162842

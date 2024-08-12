@@ -165,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{9909C3F1-8632-5C76-BA15-9B65BD8E8FFC}"
-                                            }
+                                            },
+                                            "assetHint": "platesigns/models/materials/platesignrestricted.azmaterial"
                                         }
                                     }
                                 }
@@ -193,7 +194,7 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            180.0
+                            -90.0
                         ],
                         "UniformScale": 0.10000000149011612
                     }
