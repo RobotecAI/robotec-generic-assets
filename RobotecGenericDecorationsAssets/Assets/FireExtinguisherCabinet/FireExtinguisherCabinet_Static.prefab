@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "FireExtinguisherCabinet_Visual",
+        "Name": "FireExtinguisherCabinet_Static",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -50,9 +50,84 @@
         }
     },
     "Entities": {
+        "Entity_[1240772369722]": {
+            "Id": "Entity_[1240772369722]",
+            "Name": "collider",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14379220383889181459,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.15000000596046448,
+                            0.15000000596046448,
+                            0.38100001215934753
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.0,
+                                0.30000001192092896,
+                                0.7620000243186951
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16639737443128446877
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5833531941937458606
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16712784815162392844
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6755324116797579097
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13364885260862884929
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4583988888001715220
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11534064767437406199
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10400581397408816223
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3026573792125456335
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9385135111856949046,
+                    "Parent Entity": "Entity_[53068404189682]"
+                }
+            }
+        },
         "Entity_[53068404189682]": {
             "Id": "Entity_[53068404189682]",
-            "Name": "FireExtinguisherCabinet_Visual",
+            "Name": "FireExtinguisherCabinet_Static",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -66,7 +141,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 17097148526195100594,
                     "Child Entity Order": [
-                        "Entity_[53072699156978]"
+                        "Entity_[1240772369722]",
+                        "Instance_[1249362304314]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -100,99 +176,23 @@
                     "Parent Entity": "ContainerEntity"
                 }
             }
-        },
-        "Entity_[53072699156978]": {
-            "Id": "Entity_[53072699156978]",
-            "Name": "visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 201725841352421976,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{81A3CC5B-479C-5894-A8D4-3802B3150868}",
-                                    "subId": 273462528
-                                },
-                                "assetHint": "fireextinguishercabinet/models/fireextinguishercabinet.fbx.azmodel"
-                            }
-                        }
-                    }
+        }
+    },
+    "Instances": {
+        "Instance_[1249362304314]": {
+            "Source": "FireExtinguisherCabinet/FireExtinguisherCabinet_Visual.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[53068404189682]"
                 },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 14043613737260337575
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 1009037865917454682
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 8905485801317869761
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2290244713316426636
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 16143676531649643786
-                },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 9338196528535379775,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3922521451
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{871D7CA9-C561-50A0-9139-5F7385A37086}"
-                                            },
-                                            "assetHint": "fireextinguishercabinet/models/materials/fireextinguishercabinet.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 5758786879904291446
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 17258619809656078546
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 17968500839927798704
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 15140299599872518502,
-                    "Parent Entity": "Entity_[53068404189682]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.15000000596046448,
-                            0.3809932470321655
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -90.0
-                        ]
-                    }
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.7881393432617188e-7
                 }
-            }
+            ]
         }
     }
 }
