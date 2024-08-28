@@ -1,0 +1,11 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/CardboardBox_BaseColor.jpg",
+        "normal.flipY": true,
+        "normal.textureMap": "Textures/CardboardBox_Normal.png",
+        "normal.useTexture": false,
+        "roughness.textureMap": "Textures/CardboardBox_Roughness.jpg"
+    }
+}
