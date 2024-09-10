@@ -1,67 +1,67 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "FootballDeflated",
+        "Name": "CardboardBox",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 6530130639132390335
+                "Id": 10194363214308650815
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 6112475491788981760
+                "Id": 3950470311319662663
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 15026951129104334851,
+                "Id": 1473546082200994620,
                 "Child Entity Order": [
-                    "Entity_[725625767579]"
+                    "Entity_[1043453347483]"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 13970034618791905687
+                "Id": 8276354657492815861
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 10073473462663926654
+                "Id": 3694885069793142746
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 7717326167785938751
+                "Id": 15346903208979976746
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 15213335349419261590
+                "Id": 9108717928383629468
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 9331370472849759093
+                "Id": 9384342809130867061
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 6731676833726310063
+                "Id": 16438427643828701330
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 748695804862267250,
+                "Id": 11967758494058658716,
                 "Parent Entity": ""
             }
         }
     },
     "Entities": {
-        "Entity_[725625767579]": {
-            "Id": "Entity_[725625767579]",
-            "Name": "FootballDeflated",
+        "Entity_[1043453347483]": {
+            "Id": "Entity_[1043453347483]",
+            "Name": "CardboardBox",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
-                    "Id": 4635860733953536766,
+                    "Id": 11277750274826570115,
                     "ColliderConfiguration": {
                         "Position": [
                             0.0,
-                            0.0,
-                            0.10999999940395355
+                            0.009999999776482582,
+                            0.2199999988079071
                         ],
                         "MaterialSlots": {
                             "Slots": [
@@ -72,146 +72,150 @@
                         }
                     },
                     "ShapeConfiguration": {
-                        "ShapeType": 0,
-                        "Sphere": {
-                            "Radius": 0.10999999940395355
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.5099999904632568,
+                                0.6700000166893005,
+                                0.4399999976158142
+                            ]
                         }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 12930654756595040768
+                    "Id": 2627694493566180715
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 11308698345441678855
+                    "Id": 11356332781412023124
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16099459052775912237,
+                    "Id": 5655342345555828925,
                     "Child Entity Order": [
-                        "Entity_[729920734875]"
+                        "Entity_[1047748314779]"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 5321299320086590207,
+                    "Id": 4929493486945542149,
                     "ComponentOrderEntryArray": [
                         {
-                            "ComponentId": 9353418665254258578
+                            "ComponentId": 15795610923312445110
                         },
                         {
-                            "ComponentId": 4925102582489053995,
+                            "ComponentId": 16820052402562689029,
                             "SortIndex": 1
                         },
                         {
-                            "ComponentId": 4635860733953536766,
+                            "ComponentId": 11277750274826570115,
                             "SortIndex": 2
                         }
                     ]
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 1700488594184953360
+                    "Id": 8394779654279123272
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 14255501868870231031
+                    "Id": 5038909395481892114
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 1451711279898133920
+                    "Id": 15403691512561777708
                 },
                 "EditorRigidBodyComponent": {
                     "$type": "EditorRigidBodyComponent",
-                    "Id": 4925102582489053995,
+                    "Id": 16820052402562689029,
                     "Configuration": {
                         "entityId": "",
-                        "Mass": 5.575279712677002,
+                        "Mass": 150.34799194335938,
                         "Centre of mass offset": [
                             0.0,
-                            0.0,
-                            0.10999999940395355
+                            0.009999999776482582,
+                            0.2199999988079071
                         ],
                         "Inertia tensor": [
-                            0.026984350755810738,
+                            8.049882888793945,
                             0.0,
                             0.0,
                             0.0,
-                            0.026984350755810738,
+                            5.684406757354736,
                             0.0,
                             0.0,
                             0.0,
-                            0.026984352618455887
+                            8.883060455322266
                         ]
                     }
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 15560988326752863122
+                    "Id": 18283758677444327673
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 9353418665254258578,
+                    "Id": 15795610923312445110,
                     "Parent Entity": "ContainerEntity"
                 }
             }
         },
-        "Entity_[729920734875]": {
-            "Id": "Entity_[729920734875]",
-            "Name": "FootballDeflated_Visual",
+        "Entity_[1047748314779]": {
+            "Id": "Entity_[1047748314779]",
+            "Name": "Visual",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 11517250879136878620,
+                    "Id": 15813155505018857377,
                     "Controller": {
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F877FFAC-3BD2-5BD6-8EBB-6D9158862E41}",
-                                    "subId": 269613285
+                                    "guid": "{1FDEF1B4-7E1E-5D2F-B512-B3830A61E49D}",
+                                    "subId": 274116996
                                 },
-                                "assetHint": "football/models/footballdeflated.fbx.azmodel"
+                                "assetHint": "cardboardbox/models/cardboardbox.fbx.azmodel"
                             }
                         }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 14430517905780646845
+                    "Id": 1421262904359443361
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 924672328228615925
+                    "Id": 13461117476163716225
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 15370102744322816505
+                    "Id": 955732371266001122
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 16673588513251093961
+                    "Id": 13275751887626155215
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 1769577052141638690
+                    "Id": 17043490231138376997
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 7737553252145098044,
+                    "Id": 12433293577211832399,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 540123279
+                                        "materialSlotStableId": 2017172587
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{F86C65E6-725A-5778-95A4-FDF3D812B931}"
+                                                "guid": "{15025F08-66A0-5A1E-8BC4-D90872F13A47}"
                                             },
-                                            "assetHint": "football/models/materials/football.azmaterial"
+                                            "assetHint": "cardboardbox/models/materials/cardboardbox.azmaterial"
                                         }
                                     }
                                 }
@@ -221,20 +225,20 @@
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 4567719054947107206
+                    "Id": 12787930378153379117
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 5081326495290007278
+                    "Id": 9424350153280982875
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 16193449789366380719
+                    "Id": 3306245514425016172
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 4234774674532458319,
-                    "Parent Entity": "Entity_[725625767579]"
+                    "Id": 3889288468933181316,
+                    "Parent Entity": "Entity_[1043453347483]"
                 }
             }
         }
