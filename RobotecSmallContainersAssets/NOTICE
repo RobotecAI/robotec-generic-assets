@@ -1,11 +1,4 @@
-The assets in this repository are based on the assets prepared for ROSCon 2023 Demo located under https://github.com/RobotecAI/ROSCon2023Demo (accessed on July 24, 2024) and [robotec-agriculture-gem](https://github.com/RobotecAI/robotec-agriculture-gem/).
-The base assets were licensed under Apache 2.0 license and the same license remains for this work.
-
-Both "Football" models were obtained from PolyHaven (https://polyhaven.com/a/football) and have CC0 license.
-
-The "Barrel" model was obtained from PolyHaven (https://polyhaven.com/a/Barrel_02) and it has CC0 license.
-
-The "CardboardBox" model was obtained from PolyHaven (https://polyhaven.com/a/cardboard_box_01) and it has CC0 license.
+The assets in this repository are based on the assets prepared for ROSCon 2023 Demo located under https://github.com/RobotecAI/ROSCon2023Demo (accessed on July 24, 2024). The base assets were licensed under Apache 2.0 license and the same license remains for this work.
 
 Most of the base files, i.e., textures and models are copied without any changes. Otherwise, the changes include (but are not limited to):
 - filename changes and corresponding prefabs/materials modifications
@@ -13,3 +6,10 @@ Most of the base files, i.e., textures and models are copied without any changes
 - colliders removal from prefabs
 - ROS 2 dependency removal from prefabs
 - rotation/position modifications within prefabs
+
+The "PlasticBarrel2" model was obtained from PolyHaven (https://polyhaven.com/a/Barrel_02) and it has CC0 license. 
+
+The "CardboardBox" model was obtained from PolyHaven (https://polyhaven.com/a/cardboard_box_01) and it has CC0 license.
+
+Prefab, material and assetinfo files for "PlasticBarrel2" and "CardboardBox" were created by Robotec.ai and are licensed under the Apache 2.0 license.
+
