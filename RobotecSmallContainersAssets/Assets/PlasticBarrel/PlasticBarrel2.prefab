@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "Barrel",
+        "Name": "PlasticBarrel2",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -52,7 +52,7 @@
     "Entities": {
         "Entity_[871654655643]": {
             "Id": "Entity_[871654655643]",
-            "Name": "Barrel",
+            "Name": "PlasticBarrel2",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -173,10 +173,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D67EE211-A47A-5D75-8A40-79DFA40332B2}",
-                                    "subId": 274806711
+                                    "guid": "{2CB29543-6732-5365-9946-2AB5AEC24F34}",
+                                    "subId": 277491356
                                 },
-                                "assetHint": "barrel/models/barrel.fbx.azmodel"
+                                "assetHint": "plasticbarrel/models/plasticbarrel2.fbx.azmodel"
                             }
                         }
                     }
@@ -214,9 +214,8 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{6279B5E5-F075-5D35-A8CD-B68FF17ED20C}"
-                                            },
-                                            "assetHint": "barrel/models/materials/barrel.azmaterial"
+                                                "guid": "{1CE351F6-3D4C-545F-812D-3604142E0520}"
+                                            }
                                         }
                                     }
                                 }
