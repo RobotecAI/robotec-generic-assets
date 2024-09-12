@@ -58,6 +58,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 6616695493510394991,
                     "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.1120000034570694
+                        ],
                         "MaterialSlots": {
                             "Slots": [
                                 {
@@ -69,7 +74,7 @@
                     "ShapeConfiguration": {
                         "ShapeType": 0,
                         "Sphere": {
-                            "Radius": 0.11500000208616257
+                            "Radius": 0.1120000034570694
                         }
                     }
                 },
@@ -122,22 +127,22 @@
                     "Id": 5068287916845808227,
                     "Configuration": {
                         "entityId": "",
-                        "Mass": 6.370625972747803,
+                        "Mass": 5.884949207305908,
                         "Centre of mass offset": [
                             0.0,
                             0.0,
-                            0.10999999195337296
+                            0.10000000149011612
                         ],
                         "Inertia tensor": [
-                            0.033700622618198395,
+                            0.029528316110372543,
                             0.0,
                             0.0,
                             0.0,
-                            0.033700622618198395,
+                            0.029528316110372543,
                             0.0,
                             0.0,
                             0.0,
-                            0.0337006151676178
+                            0.02952832169830799
                         ]
                     }
                 },
@@ -229,7 +234,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 2525879189488478961,
-                    "Parent Entity": "Entity_[558122043035]"
+                    "Parent Entity": "Entity_[558122043035]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.1120000034570694
+                        ]
+                    }
                 }
             }
         }
