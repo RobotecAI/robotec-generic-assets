@@ -9,5 +9,5 @@ Most of the base files, i.e., textures and models are copied without any changes
 - ROS 2 dependency removal from prefabs
 - rotation/position modifications within prefabs
 
-The "Football" and "FootballDeflated" models and textures were obtained from PolyHaven (https://polyhaven.com/a/football) and they have CC0 license. Prefab, material and assetinfo files were created by Robotec.ai and are licensed under the Apache 2.0 license.
+The "Football" and "FootballDeflated" models and textures were obtained from PolyHaven (https://polyhaven.com/a/football, available on Sept 13, 2024) and they have CC0 license. Prefab, material and assetinfo files were created by Robotec.ai and are licensed under the Apache 2.0 license.
 

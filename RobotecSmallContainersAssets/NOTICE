@@ -7,9 +7,9 @@ Most of the base files, i.e., textures and models are copied without any changes
 - ROS 2 dependency removal from prefabs
 - rotation/position modifications within prefabs
 
-The "PlasticBarrel2" model was obtained from PolyHaven (https://polyhaven.com/a/Barrel_02) and it has CC0 license. 
+The "PlasticBarrel2" model was obtained from PolyHaven (https://polyhaven.com/a/Barrel_02, available on Sept 13, 2024) and it has CC0 license. 
 
-The "CardboardBox" model was obtained from PolyHaven (https://polyhaven.com/a/cardboard_box_01) and it has CC0 license.
+The "CardboardBox" model was obtained from PolyHaven (https://polyhaven.com/a/cardboard_box_01, available on Sept 13, 2024) and it has CC0 license.
 
 Prefab, material and assetinfo files for "PlasticBarrel2" and "CardboardBox" were created by Robotec.ai and are licensed under the Apache 2.0 license.
 

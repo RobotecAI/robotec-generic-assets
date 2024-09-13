@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "PlasticBarrel_Static",
+        "Name": "PlasticBarrel",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -104,7 +104,7 @@
         },
         "Entity_[9852181798202]": {
             "Id": "Entity_[9852181798202]",
-            "Name": "collider",
+            "Name": "physics",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -162,9 +162,29 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 13629141898779128785
                 },
-                "EditorStaticRigidBodyComponent": {
-                    "$type": "EditorStaticRigidBodyComponent",
-                    "Id": 254752386749965390
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 2729512024350246258,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 375.0297546386719,
+                        "Centre of mass offset": [
+                            2.972807555678969e-9,
+                            3.916716284635413e-9,
+                            0.5
+                        ],
+                        "Inertia tensor": [
+                            42.44635009765625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            42.44635009765625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            22.387727737426758
+                        ]
+                    }
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
