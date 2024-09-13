@@ -66,7 +66,6 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 11920984595337719533,
                     "Child Entity Order": [
-                        "Instance_[9843591863610]/ContainerEntity",
                         "Entity_[9852181798202]"
                     ]
                 },
@@ -144,7 +143,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2430931108504281714
+                    "Id": 2430931108504281714,
+                    "Child Entity Order": [
+                        "Instance_[9843591863610]/ContainerEntity"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -205,7 +207,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[53386231769586]"
+                    "value": "../Entity_[9852181798202]"
                 }
             ]
         }
