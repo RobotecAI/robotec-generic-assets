@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder RobotecSkyboxAssets/Assets": {
+                    "watch": "@GEMROOT:RobotecSkyboxAssets@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder RobotecSkyboxAssets/Registry": {
+                    "watch": "@GEMROOT:RobotecSkyboxAssets@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
