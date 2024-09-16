@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "PlasticBarrel_Visual",
+        "Name": "PlasticBarrel",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -66,7 +66,6 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 11920984595337719533,
                     "Child Entity Order": [
-                        "Instance_[9843591863610]/ContainerEntity",
                         "Entity_[9852181798202]"
                     ]
                 },
@@ -104,7 +103,7 @@
         },
         "Entity_[9852181798202]": {
             "Id": "Entity_[9852181798202]",
-            "Name": "collider",
+            "Name": "physics",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -144,7 +143,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2430931108504281714
+                    "Id": 2430931108504281714,
+                    "Child Entity Order": [
+                        "Instance_[9843591863610]/ContainerEntity"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -162,9 +164,29 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 13629141898779128785
                 },
-                "EditorStaticRigidBodyComponent": {
-                    "$type": "EditorStaticRigidBodyComponent",
-                    "Id": 254752386749965390
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 2729512024350246258,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 375.0297546386719,
+                        "Centre of mass offset": [
+                            2.972807555678969e-9,
+                            3.916716284635413e-9,
+                            0.5
+                        ],
+                        "Inertia tensor": [
+                            42.44635009765625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            42.44635009765625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            22.387727737426758
+                        ]
+                    }
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -185,7 +207,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[53386231769586]"
+                    "value": "../Entity_[9852181798202]"
                 }
             ]
         }

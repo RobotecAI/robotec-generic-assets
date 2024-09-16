@@ -1,0 +1,16 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/PlasticBarrel2_BaseColor.jpg",
+        "metallic.factor": 0.4300000071525574,
+        "metallic.textureMap": "Textures/PlasticBarrel2_Metallic.jpg",
+        "normal.flipY": true,
+        "normal.textureMap": "Textures/PlasticBarrel2_Normal.png",
+        "normal.textureMapUv": "Unwrapped",
+        "normal.useTexture": false,
+        "roughness.lowerBound": 0.28999999165534973,
+        "roughness.textureMap": "Textures/PlasticBarrel2_Roughness.jpg",
+        "specularF0.factor": 0.03999999910593033
+    }
+}
