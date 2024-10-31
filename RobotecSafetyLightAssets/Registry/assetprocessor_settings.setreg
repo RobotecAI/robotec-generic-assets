@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder RobotecSafetyLightAssets/Assets": {
+                    "watch": "@GEMROOT:RobotecSafetyLightAssets@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder RobotecSafetyLightAssets/Registry": {
+                    "watch": "@GEMROOT:RobotecSafetyLightAssets@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
