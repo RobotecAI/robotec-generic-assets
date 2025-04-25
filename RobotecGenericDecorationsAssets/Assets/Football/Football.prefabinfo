@@ -7,6 +7,7 @@
             <Class name="AZ::Uuid" field="UniqueKey" value="76b9d6e2-ccbd-4cc7-b4f0-02c111c7975c" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="static" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="Football/Models/FootballInflated.fbx" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>

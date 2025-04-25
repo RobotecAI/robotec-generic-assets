@@ -4,9 +4,9 @@
         <Class name="PrefabInfo" field="Config" version="1" type="{018EAA3A-0ECE-7EFC-A9A5-960B8DF05312}">
             <Class name="AZStd::string" field="Name" value="CardboardBox" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
             <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-            <Class name="AZ::Uuid" field="UniqueKey" value="c1c8a634-00f3-456b-8f96-cdf4ed8ed3eb" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+            <Class name="AZ::Uuid" field="UniqueKey" value="b5c8a1dc-0428-4715-a118-e35d756ef145" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="static" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="CardboardBox/Models/CardboardBox.fbx" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>
