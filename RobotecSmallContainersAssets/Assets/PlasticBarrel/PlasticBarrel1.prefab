@@ -66,7 +66,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 11920984595337719533,
                     "Child Entity Order": [
-                        "Entity_[9852181798202]"
+                        "Entity_[9852181798202]",
+                        "Instance_[3535344882613]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -143,10 +144,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2430931108504281714,
-                    "Child Entity Order": [
-                        "Instance_[9843591863610]/ContainerEntity"
-                    ]
+                    "Id": 2430931108504281714
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -201,13 +199,13 @@
         }
     },
     "Instances": {
-        "Instance_[9843591863610]": {
-            "Source": "PlasticBarrel/PlasticBarrel_Visual.prefab",
+        "Instance_[3535344882613]": {
+            "Source": "PlasticBarrel/PlasticBarrel1_Visual.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[9852181798202]"
+                    "value": "../Entity_[53386231769586]"
                 }
             ]
         }

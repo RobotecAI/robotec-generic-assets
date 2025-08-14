@@ -60,7 +60,7 @@
                     "ColliderConfiguration": {
                         "Position": [
                             0.15000000596046448,
-                            0.15000000596046448,
+                            0.0,
                             0.38100001215934753
                         ],
                         "MaterialSlots": {
@@ -75,7 +75,7 @@
                         "ShapeType": 1,
                         "Box": {
                             "Configuration": [
-                                0.0,
+                                0.30000001192092896,
                                 0.30000001192092896,
                                 0.7620000243186951
                             ]
@@ -186,6 +186,16 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[53068404189682]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 0.15000000596046448
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -0.15000000596046448
                 },
                 {
                     "op": "replace",
