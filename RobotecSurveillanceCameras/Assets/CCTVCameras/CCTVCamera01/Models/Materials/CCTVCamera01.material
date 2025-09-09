@@ -18,6 +18,7 @@
         "metallic.textureMap": "Textures/CCTVCamera01_Metalic.png",
         "normal.textureMap": "Textures/CCTVCamera01_Normal.png",
         "opacity.factor": 1.0,
-        "roughness.factor": 0.3999999761581421
+        "roughness.factor": 0.3999999761581421,
+        "roughness.textureMap": "Textures/CCTVCamera01_Roughness.png"
     }
 }

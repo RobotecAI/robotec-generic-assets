@@ -22,6 +22,7 @@
         "opacity.factor": 0.7300000190734863,
         "opacity.mode": "Cutout",
         "opacity.textureMap": "Textures/FenceWire_Alpha.png",
-        "roughness.factor": 0.5
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/FenceWire_Rougness.png"
     }
 }
