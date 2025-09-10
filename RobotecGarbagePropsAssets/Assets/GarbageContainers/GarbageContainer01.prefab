@@ -1,0 +1,1702 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "GarbageContainer01",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2458571381247218125
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16369106334455023659
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4961647446578900081,
+                "Child Entity Order": [
+                    "Entity_[3159159857995]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15716093182384849061
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 4031855347561979681
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7280272484099545431
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8418288153594323392
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9662396780789175169
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14871026240080195736
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13839923426465231479,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3111915217739]": {
+            "Id": "Entity_[3111915217739]",
+            "Name": "WheelFR",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2197191019838966162,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 273906986
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_1b1c0f3a_5de8_5a79_b3fc_b493c1722f2c_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1909805998065141603
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2633073162464594774
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12000396092315466958
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1202837040901567253,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10660314335813263923
+                        },
+                        {
+                            "ComponentId": 8621250085471961896,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1202837040901567253,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 12000396092315466958,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 7141688342773724916,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 16233256382871207768,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 1813307555440441611,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 2633073162464594774,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 1909805998065141603,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 2197191019838966162,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 18315441031092316736,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16233256382871207768
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18315441031092316736,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8621250085471961896
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1813307555440441611
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7141688342773724916
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10660314335813263923,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.44321155548095703,
+                            0.5495882034301758,
+                            0.12823188304901123
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3116210185035]": {
+            "Id": "Entity_[3116210185035]",
+            "Name": "WheelFL",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4850543918493712038,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 281050856
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_1274b77b_c0d6_5b8a_9adf_67dcafe4bec6_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2202165681048093021
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16214998990687789678
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 37792292446534910
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18424431458144790946,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13680862233162458996
+                        },
+                        {
+                            "ComponentId": 12500429971591001139,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 18424431458144790946,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 37792292446534910,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 7910474513715336901,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 16303637178592265671,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 1970723049203213376,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 16214998990687789678,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 2202165681048093021,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 4850543918493712038,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 3783641289516685344,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16303637178592265671
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3783641289516685344,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12500429971591001139
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1970723049203213376
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7910474513715336901
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13680862233162458996,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.44321155548095703,
+                            -0.38650989532470703,
+                            0.12823188304901123
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3120505152331]": {
+            "Id": "Entity_[3120505152331]",
+            "Name": "WheelRL",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12394010293400607246,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 280694278
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_b6938d80_7e78_519a_a767_69e79241b06a_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5544537170285984976
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2334991760051703216
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14232155582857547603
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5804549309442429428,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 283783094213525833
+                        },
+                        {
+                            "ComponentId": 8969390653039881167,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5804549309442429428,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 14232155582857547603,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 1618543468085248076,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 3023539266769105142,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 12339008111151972190,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 2334991760051703216,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 5544537170285984976,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 12394010293400607246,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 11653323617985817516,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3023539266769105142
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11653323617985817516,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8969390653039881167
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12339008111151972190
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1618543468085248076
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 283783094213525833,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.3432638645172119,
+                            -0.38650989532470703,
+                            0.12823188304901123
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3124800119627]": {
+            "Id": "Entity_[3124800119627]",
+            "Name": "WheelMountingFR",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8082076177209598972,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 269777323
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_1c7a28ca_bbd2_5d75_90a6_298f1a31ddfb_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3835632060854905617
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4024386318716204749
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11607332705599759334
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16829883215229438695,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2440966898289012449
+                        },
+                        {
+                            "ComponentId": 9522980716143009545,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16829883215229438695,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 11607332705599759334,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 6229906084012859621,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 12922541992103862113,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 12804173828199093068,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 4024386318716204749,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 3835632060854905617,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 8082076177209598972,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 6256874375403112316,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12922541992103862113
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6256874375403112316,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9522980716143009545
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12804173828199093068
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6229906084012859621
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2440966898289012449,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.44319915771484375,
+                            0.4680490493774414,
+                            0.2827690839767456
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3129095086923]": {
+            "Id": "Entity_[3129095086923]",
+            "Name": "Container",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5106296763300932436,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 272158711
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_0d010cbe_4984_5ec3_8338_3c4223d313a1_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16241398551160199266
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7537367089917771783
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8581923662594977602
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8808639832094676285
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1800767490923062706
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8658944025083180755,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6945602458823715006
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11256898325340955383
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9009140569867104089
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3872950512043030792,
+                    "Parent Entity": "Entity_[3150569923403]"
+                }
+            }
+        },
+        "Entity_[3133390054219]": {
+            "Id": "Entity_[3133390054219]",
+            "Name": "WheelRR",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8145597992337309334,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 281812538
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_83c65852_3419_5e5b_a553_8f338f7ffa14_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11856272836517627716
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6243740447290744570
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1398118005855037226
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7324684265562797604,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11462347870853352908
+                        },
+                        {
+                            "ComponentId": 2047350285678468503,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7324684265562797604,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1398118005855037226,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 7226484518755360278,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 7326419869574480318,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 15168897176208407959,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 6243740447290744570,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 11856272836517627716,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 8145597992337309334,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 9056771161623466034,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7326419869574480318
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9056771161623466034,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2047350285678468503
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15168897176208407959
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7226484518755360278
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11462347870853352908,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.3432638645172119,
+                            0.5495882034301758,
+                            0.12823188304901123
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3137685021515]": {
+            "Id": "Entity_[3137685021515]",
+            "Name": "WheelMountingRR",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6012724011228180978,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 282892722
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_b2e13a31_a2a1_56d1_a92b_939fd91d0c68_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6316049674440753162
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4258287910069103978
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 625469568227621175
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8813464145032321617,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2428132711089885025
+                        },
+                        {
+                            "ComponentId": 6294545797811225901,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8813464145032321617,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 625469568227621175,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 9194823509104788199,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 5941694550651751692,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 16534785698725086810,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 4258287910069103978,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 6316049674440753162,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 6012724011228180978,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 313822177262388389,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5941694550651751692
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 313822177262388389,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6294545797811225901
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16534785698725086810
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9194823509104788199
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2428132711089885025,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.3432762622833252,
+                            0.4680490493774414,
+                            0.2827690839767456
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3141979988811]": {
+            "Id": "Entity_[3141979988811]",
+            "Name": "PhysicsCover",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 789515551907715916
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11868888783950614948
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17269497842284414779,
+                    "Child Entity Order": [
+                        "Entity_[3163454825291]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5567293685332791330,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1336805638689614848
+                        },
+                        {
+                            "ComponentId": 1935542683508405632,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5567293685332791330,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 17269497842284414779,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 12016299849811041925,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 16820315343218654539,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 2986285899243800604,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 11868888783950614948,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 789515551907715916,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 16056172041272392807,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 11368533038002873421,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16820315343218654539
+                },
+                "EditorMeshColliderComponent": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 11368533038002873421,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -0.029999999329447746,
+                            0.0,
+                            -0.949999988079071
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 1181335336
+                                },
+                                "assetHint": "garbagecontainers/models/garbagecontainercover.fbx.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                        "subId": 1181335336
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "garbagecontainers/models/garbagecontainercover.fbx.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1935542683508405632
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2986285899243800604
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16056172041272392807
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12016299849811041925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1336805638689614848,
+                    "Parent Entity": "Entity_[3146274956107]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03000020980834961,
+                            4.76837158203125e-7,
+                            0.9504379034042358
+                        ],
+                        "Rotate": [
+                            0.0,
+                            -87.07508087158203,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3146274956107]": {
+            "Id": "Entity_[3146274956107]",
+            "Name": "PhysicsBox",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 789515551907715916
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11868888783950614948
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17269497842284414779,
+                    "Child Entity Order": [
+                        "Entity_[3150569923403]",
+                        "Entity_[3141979988811]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5567293685332791330
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16820315343218654539
+                },
+                "EditorMeshColliderComponent": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 11368533038002873421,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 1961586561
+                                },
+                                "assetHint": "garbagecontainers/models/garbagecontainerbox.fbx.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                        "subId": 1961586561
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "garbagecontainers/models/garbagecontainerbox.fbx.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1935542683508405632
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2986285899243800604
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16056172041272392807
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12016299849811041925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1336805638689614848,
+                    "Parent Entity": "Entity_[3159159857995]"
+                }
+            }
+        },
+        "Entity_[3150569923403]": {
+            "Id": "Entity_[3150569923403]",
+            "Name": "Visual",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5404525901075674473
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9942936519485432731
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 706453903135467371,
+                    "Child Entity Order": [
+                        "Entity_[3116210185035]",
+                        "Entity_[3154864890699]",
+                        "Entity_[3133390054219]",
+                        "Entity_[3167749792587]",
+                        "Entity_[3137685021515]",
+                        "Entity_[3124800119627]",
+                        "Entity_[3111915217739]",
+                        "Entity_[3129095086923]",
+                        "Entity_[3120505152331]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6811771700641167750
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7882306038479160737
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14408434446367727388
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7279149530865382760
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14624435647494115473
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8666933226377861382,
+                    "Parent Entity": "Entity_[3146274956107]"
+                }
+            }
+        },
+        "Entity_[3154864890699]": {
+            "Id": "Entity_[3154864890699]",
+            "Name": "WheelMountingFL",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15508935641092163770,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 274338938
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_019d0229_0905_5c62_b0b7_a0f9d034a915_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16907883448705045750
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1255313962567277222
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 682590406861542551
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8940750437039569295,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4561282353290490256
+                        },
+                        {
+                            "ComponentId": 11872603247309974408,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8940750437039569295,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 682590406861542551,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 4476060994282228916,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 15949876059128979829,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 11637965962951117969,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 1255313962567277222,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 16907883448705045750,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 15508935641092163770,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 9973736619902113918,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15949876059128979829
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9973736619902113918,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11872603247309974408
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11637965962951117969
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4476060994282228916
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4561282353290490256,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.44319915771484375,
+                            -0.4680490493774414,
+                            0.2827690839767456
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3159159857995]": {
+            "Id": "Entity_[3159159857995]",
+            "Name": "GarbageContainer01",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10481303214285588293
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13484172408620874019
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11812729680783708737,
+                    "Child Entity Order": [
+                        "Entity_[3146274956107]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8947464003706626529
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9498966984505827916
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14168387010233942525
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4377475349927183793
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2757766838445087332
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9288364288838835434,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[3163454825291]": {
+            "Id": "Entity_[3163454825291]",
+            "Name": "Visual",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5404525901075674473
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9942936519485432731
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 706453903135467371,
+                    "Child Entity Order": [
+                        "Entity_[3172044759883]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6811771700641167750
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7882306038479160737
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14408434446367727388
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7279149530865382760
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14624435647494115473
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8666933226377861382,
+                    "Parent Entity": "Entity_[3141979988811]"
+                }
+            }
+        },
+        "Entity_[3167749792587]": {
+            "Id": "Entity_[3167749792587]",
+            "Name": "WheelMountingRL",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9372332838781912343,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 278040368
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_5e6ee052_c4d4_56f6_8e29_73a12c5fda3b_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13704685612676147962
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5964141710119961122
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12377411508394839762
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15821122411322279999,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 779081552210551482
+                        },
+                        {
+                            "ComponentId": 1116697316105101910,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15821122411322279999,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 12377411508394839762,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 6362343330295518189,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 13013004163720374178,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 18005613184278893263,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 5964141710119961122,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 13704685612676147962,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 9372332838781912343,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 6294404849410720175,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13013004163720374178
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6294404849410720175,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1116697316105101910
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18005613184278893263
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6362343330295518189
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 779081552210551482,
+                    "Parent Entity": "Entity_[3150569923403]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.3432762622833252,
+                            -0.4680490493774414,
+                            0.2827690839767456
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3172044759883]": {
+            "Id": "Entity_[3172044759883]",
+            "Name": "Cover",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1744856657688231540,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6EAA6EC9-E142-5A0F-94BB-0757DC87E0EF}",
+                                    "subId": 282922043
+                                },
+                                "assetHint": "garbagecontainers/models/default_garbagecontainer01_7de9a5b4_fdbf_505c_99da_ca78098850d4_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4893846038480052808
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6609384685779572547
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6241501212916212277
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12822109760403578016,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8154914065448014412
+                        },
+                        {
+                            "ComponentId": 1926571767909340713,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12822109760403578016,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6241501212916212277,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 2022202682570956490,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 1188349527738709816,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 16589421552216264769,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 6609384685779572547,
+                            "SortIndex": 7
+                        },
+                        {
+                            "ComponentId": 4893846038480052808,
+                            "SortIndex": 8
+                        },
+                        {
+                            "ComponentId": 1744856657688231540,
+                            "SortIndex": 9
+                        },
+                        {
+                            "ComponentId": 12887367945699736033,
+                            "SortIndex": 10
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1188349527738709816
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12887367945699736033,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2539595222
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{384B4055-0C78-5F82-A53B-7BC306E6824A}"
+                                            },
+                                            "assetHint": "garbagecontainers/models/materials/garbagecontainer01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1926571767909340713
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16589421552216264769
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2022202682570956490
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8154914065448014412,
+                    "Parent Entity": "Entity_[3163454825291]"
+                }
+            }
+        }
+    }
+}

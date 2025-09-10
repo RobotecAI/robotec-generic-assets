@@ -1,0 +1,948 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8911F8AA-B893-5C80-BEC6-A68DB021A5EC}",
+            "name": "GarbageContainerBox",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.Collider.DefaultMaterial",
+                    "RootNode.Collider.UVMap",
+                    "RootNode.Collider.custom_properties",
+                    "RootNode.Collider.transform",
+                    "RootNode.ColliderCover.DefaultMaterial",
+                    "RootNode.ColliderCover.UVMap",
+                    "RootNode.ColliderCover.custom_properties",
+                    "RootNode.ColliderCover.transform",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFL.DefaultMaterial",
+                    "RootNode.ColliderFL.UVMap",
+                    "RootNode.ColliderFL.custom_properties",
+                    "RootNode.ColliderFL.transform",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderFR.DefaultMaterial",
+                    "RootNode.ColliderFR.UVMap",
+                    "RootNode.ColliderFR.custom_properties",
+                    "RootNode.ColliderFR.transform",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRL.DefaultMaterial",
+                    "RootNode.ColliderRL.UVMap",
+                    "RootNode.ColliderRL.custom_properties",
+                    "RootNode.ColliderRL.transform",
+                    "RootNode.ColliderRR",
+                    "RootNode.ColliderRR.DefaultMaterial",
+                    "RootNode.ColliderRR.UVMap",
+                    "RootNode.ColliderRR.custom_properties",
+                    "RootNode.ColliderRR.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.ColliderCover",
+                    "RootNode.Container",
+                    "RootNode.Container.GarbageContainer",
+                    "RootNode.Container.UVMap",
+                    "RootNode.Container.custom_properties",
+                    "RootNode.Container.transform",
+                    "RootNode.Cover",
+                    "RootNode.Cover.GarbageContainer",
+                    "RootNode.Cover.UVMap",
+                    "RootNode.Cover.custom_properties",
+                    "RootNode.Cover.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.GarbageContainer",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.GarbageContainer",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFL.GarbageContainer",
+                    "RootNode.WheelMountingFL.UVMap",
+                    "RootNode.WheelMountingFL.custom_properties",
+                    "RootNode.WheelMountingFL.transform",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingFR.GarbageContainer",
+                    "RootNode.WheelMountingFR.UVMap",
+                    "RootNode.WheelMountingFR.custom_properties",
+                    "RootNode.WheelMountingFR.transform",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRL.GarbageContainer",
+                    "RootNode.WheelMountingRL.UVMap",
+                    "RootNode.WheelMountingRL.custom_properties",
+                    "RootNode.WheelMountingRL.transform",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelMountingRR.GarbageContainer",
+                    "RootNode.WheelMountingRR.UVMap",
+                    "RootNode.WheelMountingRR.custom_properties",
+                    "RootNode.WheelMountingRR.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.GarbageContainer",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.GarbageContainer",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "GarbageContainer01",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Collider",
+                    "RootNode.Collider.DefaultMaterial",
+                    "RootNode.Collider.UVMap",
+                    "RootNode.Collider.custom_properties",
+                    "RootNode.Collider.transform",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderCover.DefaultMaterial",
+                    "RootNode.ColliderCover.UVMap",
+                    "RootNode.ColliderCover.custom_properties",
+                    "RootNode.ColliderCover.transform",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFL.DefaultMaterial",
+                    "RootNode.ColliderFL.UVMap",
+                    "RootNode.ColliderFL.custom_properties",
+                    "RootNode.ColliderFL.transform",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderFR.DefaultMaterial",
+                    "RootNode.ColliderFR.UVMap",
+                    "RootNode.ColliderFR.custom_properties",
+                    "RootNode.ColliderFR.transform",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRL.DefaultMaterial",
+                    "RootNode.ColliderRL.UVMap",
+                    "RootNode.ColliderRL.custom_properties",
+                    "RootNode.ColliderRL.transform",
+                    "RootNode.ColliderRR",
+                    "RootNode.ColliderRR.DefaultMaterial",
+                    "RootNode.ColliderRR.UVMap",
+                    "RootNode.ColliderRR.custom_properties",
+                    "RootNode.ColliderRR.transform",
+                    "RootNode.Container",
+                    "RootNode.Container.GarbageContainer",
+                    "RootNode.Container.UVMap",
+                    "RootNode.Container.custom_properties",
+                    "RootNode.Container.transform",
+                    "RootNode.Cover",
+                    "RootNode.Cover.GarbageContainer",
+                    "RootNode.Cover.UVMap",
+                    "RootNode.Cover.custom_properties",
+                    "RootNode.Cover.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.GarbageContainer",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.GarbageContainer",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFL.GarbageContainer",
+                    "RootNode.WheelMountingFL.UVMap",
+                    "RootNode.WheelMountingFL.custom_properties",
+                    "RootNode.WheelMountingFL.transform",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingFR.GarbageContainer",
+                    "RootNode.WheelMountingFR.UVMap",
+                    "RootNode.WheelMountingFR.custom_properties",
+                    "RootNode.WheelMountingFR.transform",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRL.GarbageContainer",
+                    "RootNode.WheelMountingRL.UVMap",
+                    "RootNode.WheelMountingRL.custom_properties",
+                    "RootNode.WheelMountingRL.transform",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelMountingRR.GarbageContainer",
+                    "RootNode.WheelMountingRR.UVMap",
+                    "RootNode.WheelMountingRR.custom_properties",
+                    "RootNode.WheelMountingRR.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.GarbageContainer",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.GarbageContainer",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{5C5084B9-44A2-52AA-844F-CCFF325C8466}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_83C65852_3419_5E5B_A553_8F338F7FFA14_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelRR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{83C65852-3419-5E5B-A553-8F338F7FFA14}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_2A619EC8_88FC_5DA8_9168_55FF27942094_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.ColliderRL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{2A619EC8-88FC-5DA8-9168-55FF27942094}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_019D0229_0905_5C62_B0B7_A0F9D034A915_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelMountingFL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{019D0229-0905-5C62-B0B7-A0F9D034A915}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_7FFE4758_78D4_584C_9CDB_130155FB9E8D_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.ColliderFR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{7FFE4758-78D4-584C-9CDB-130155FB9E8D}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_1274B77B_C0D6_5B8A_9ADF_67DCAFE4BEC6_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelFL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{1274B77B-C0D6-5B8A-9ADF-67DCAFE4BEC6}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_11C8E9A7_99B5_5A2C_8655_C30891F24ACA_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.ColliderFL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{11C8E9A7-99B5-5A2C-8655-C30891F24ACA}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_7DE9A5B4_FDBF_505C_99DA_CA78098850D4_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Cover"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{7DE9A5B4-FDBF-505C-99DA-CA78098850D4}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_AF865CB1_E874_5F74_A6FE_0DBA1C1FD44E_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Collider"
+                ],
+                "unselectedNodes": [
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{AF865CB1-E874-5F74-A6FE-0DBA1C1FD44E}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_1C7A28CA_BBD2_5D75_90A6_298F1A31DDFB_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelMountingFR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{1C7A28CA-BBD2-5D75-90A6-298F1A31DDFB}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_5E6EE052_C4D4_56F6_8E29_73A12C5FDA3B_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelMountingRL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{5E6EE052-C4D4-56F6-8E29-73A12C5FDA3B}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_1B1C0F3A_5DE8_5A79_B3FC_B493C1722F2C_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelFR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{1B1C0F3A-5DE8-5A79-B3FC-B493C1722F2C}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_B6938D80_7E78_519A_A767_69E79241B06A_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelRL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{B6938D80-7E78-519A-A767-69E79241B06A}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_A7CEC14A_2FAA_53B8_BF2A_B4F156AFAC37_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.ColliderCover"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{A7CEC14A-2FAA-53B8-BF2A-B4F156AFAC37}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_0D010CBE_4984_5EC3_8338_3C4223D313A1_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Container"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{0D010CBE-4984-5EC3-8338-3C4223D313A1}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_B2E13A31_A2A1_56D1_A92B_939FD91D0C68_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelMountingRR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{B2E13A31-A2A1-56D1-A92B-939FD91D0C68}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_GarbageContainer01_82A61425_DB5B_5872_87FB_B0EBEC0111B1_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.ColliderRR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Collider",
+                    "RootNode.ColliderCover",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{82A61425-DB5B-5872-87FB-B0EBEC0111B1}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "GarbageContainers/Models/GarbageContainer01_fbx.procprefab",
+            "id": "{4747533D-D4C5-523B-B1A9-00764145041E}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{2DACA700-36C2-4194-AAA0-697E252E4A26}",
+            "name": "GarbageContainerCover",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.ColliderCover"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Collider",
+                    "RootNode.ColliderFL",
+                    "RootNode.ColliderFR",
+                    "RootNode.ColliderRL",
+                    "RootNode.ColliderRR",
+                    "RootNode.Container",
+                    "RootNode.Cover",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelMountingFL",
+                    "RootNode.WheelMountingFR",
+                    "RootNode.WheelMountingRL",
+                    "RootNode.WheelMountingRR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        }
+    ]
+}

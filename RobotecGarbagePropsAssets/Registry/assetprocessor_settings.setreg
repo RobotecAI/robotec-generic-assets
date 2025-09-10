@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder RobotecGarbagePropsAssets/Assets": {
+                    "watch": "@GEMROOT:RobotecGarbagePropsAssets@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder RobotecGarbagePropsAssets/Registry": {
+                    "watch": "@GEMROOT:RobotecGarbagePropsAssets@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
