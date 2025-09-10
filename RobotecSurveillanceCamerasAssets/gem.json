@@ -1,0 +1,28 @@
+{
+    "gem_name": "RobotecSurveillanceCamerasAssets",
+    "version": "1.0.0",
+    "display_name": "RobotecSurveillanceCamerasAssets",
+    "license": "Creative Commons Attribution",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "RobotecAI",
+    "origin_url": "www.robotec.ai",
+    "type": "Asset",
+    "summary": "",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "RobotecSurveillanceCamerasAssets"
+    ],
+    "platforms": [
+        ""
+    ],
+    "icon_path": "",
+    "requirements": "",
+    "documentation_url": "",
+    "dependencies": [],
+    "repo_uri": "",
+    "compatible_engines": [],
+    "engine_api_dependencies": [],
+    "restricted": "RobotecSurveillanceCamerasAssets"
+}
