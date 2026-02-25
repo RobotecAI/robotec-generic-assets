@@ -1,0 +1,446 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ModularIndustralFence_4x4DoorBase",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10540130308566430196
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6268715128768697957
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12118332949837464660,
+                "Child Entity Order": [
+                    "Entity_[963776954183406]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8798950215129017762
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 17084953249802946847
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12448974429683301312
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4455477132973673494
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4006680540363270146
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12280092573584940493
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1572913795663480754,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[963776954183406]": {
+            "Id": "Entity_[963776954183406]",
+            "Name": "ModularIndustralFence_4x4DoorBase",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11848232898194284989,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{203ACEAC-290F-553D-8A55-F9BEF6396CD0}",
+                                    "subId": 284587584
+                                },
+                                "assetHint": "modularfences/industrialfences/models/default_modularindustralfence_4m_a3b2d500_b815_5b98_a074_62a925dc2a39_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1430483678561832657,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0006318999803625047,
+                            -0.0009637996554374695,
+                            1.218778371810913
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.09369319677352905,
+                                0.08923265337944031,
+                                2.445582866668701
+                            ]
+                        }
+                    }
+                },
+                "EditorColliderComponent_2": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15625941382408379871,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0006318999803625047,
+                            -2.9808130264282227,
+                            2.000049114227295
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.09369319677352905,
+                                2.0490336418151855,
+                                4.008124351501465
+                            ]
+                        }
+                    }
+                },
+                "EditorColliderComponent_3": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16787874977227555309,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0006318999803625047,
+                            -0.9400444030761719,
+                            3.2027196884155273
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.09369319677352905,
+                                2.0490336418151855,
+                                1.6027791500091553
+                            ]
+                        }
+                    }
+                },
+                "EditorColliderComponent_4": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 10704402802944594837,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.10063155740499496,
+                            -2.000164747238159,
+                            2.43086838722229
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.05579231679439545,
+                                4.087457180023193,
+                                0.06480437517166138
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8218933886711339929
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12870498152182097859
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7760958293948347703,
+                    "Child Entity Order": [
+                        "Entity_[963781249150702]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17016488862732141877,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18060475306058868539
+                        },
+                        {
+                            "ComponentId": 17424938865343883456,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11848232898194284989,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3905749592995409259,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 1430483678561832657,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 10704402802944594837,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 15625941382408379871,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 16787874977227555309,
+                            "SortIndex": 7
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8528916627037892884
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3905749592995409259,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 953008233
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CA58EA44-1D41-5F83-9486-3444A1433460}"
+                                            },
+                                            "assetHint": "modularfences/industrialfences/models/materials/modularindustrialwire.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4147458991
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9C5AC921-61B7-532E-BC9A-24B5756ECB3F}"
+                                            },
+                                            "assetHint": "modularfences/industrialfences/models/materials/modularindustrialfence.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8988920862672746964
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3529769689870523837
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17424938865343883456
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9759987265522362146
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18060475306058868539,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[963781249150702]": {
+            "Id": "Entity_[963781249150702]",
+            "Name": "ModularIndustralFence_4x4Door",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11160472896668855643,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{203ACEAC-290F-553D-8A55-F9BEF6396CD0}",
+                                    "subId": 274512236
+                                },
+                                "assetHint": "modularfences/industrialfences/models/default_modularindustralfence_4m_fa7ba4c6_f977_5e87_b88a_e3ef80421512_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14962898440772731119,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.07753714919090271,
+                            -1.018415927886963,
+                            1.2603645324707031
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.048793159425258636,
+                                2.001119613647461,
+                                2.266049861907959
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17275937368366535789
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12812434169069770931
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12074821645464136697
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12204519595564308522
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14553691104851550376
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14189557355476179804,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 953008233
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CA58EA44-1D41-5F83-9486-3444A1433460}"
+                                            },
+                                            "assetHint": "modularfences/industrialfences/models/materials/modularindustrialwire.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4147458991
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9C5AC921-61B7-532E-BC9A-24B5756ECB3F}"
+                                            },
+                                            "assetHint": "modularfences/industrialfences/models/materials/modularindustrialfence.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3448412335027119505
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11843895718693570441
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 13520047192195287083,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 221.25924682617188,
+                        "Centre of mass offset": [
+                            0.07753714919090271,
+                            -1.018415927886963,
+                            1.2603645324707031
+                        ],
+                        "Inertia tensor": [
+                            168.515869140625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            94.72409057617188,
+                            0.0,
+                            0.0,
+                            0.0,
+                            73.87957763671875
+                        ]
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11542256165843445749
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1079624760942986352,
+                    "Parent Entity": "Entity_[963776954183406]"
+                }
+            }
+        }
+    }
+}
