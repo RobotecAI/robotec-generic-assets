@@ -2,7 +2,7 @@
     "gem_name": "RobotecSkyboxAssets",
     "version": "1.0.0",
     "display_name": "RobotecSkyboxAssets",
-    "license": "See LICENSE file for details",
+    "license": "CC-BY-NC-4.0",
     "origin": "RobotecAI",
     "origin_url": "https://robotec.ai",
     "type": "Asset",
@@ -23,5 +23,6 @@
     "repo_uri": "",
     "compatible_engines": [],
     "engine_api_dependencies": [],
-    "restricted": "RobotecSkyboxAssets"
+    "restricted": "RobotecSkyboxAssets",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/"
 }
